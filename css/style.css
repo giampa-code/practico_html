@@ -108,4 +108,22 @@ nav{
     background-color: #bbb;
 }
 
+/*Main*/
+/*Image*/
+.image-container{
+    background-color: #aaa;
+    display: flex;
+    flex-direction: column;
+    min-height: 92px;
+    max-height: 290px;
+    height: calc(100% - 560px);
+    align-items: center;
+}
+.image-container__img{
+    background-color: #888;
+    max-height: 92px;
+    height: 100%;
+    margin-top: auto;
+    display: block;
 
+}
