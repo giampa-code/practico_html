@@ -1,0 +1,111 @@
+/*El código con el que siempre debemos iniciar nuestro CSS 😉*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family:arial,sans-serif;
+  }
+
+/*Barra de navegador*/
+nav{
+    height: 64px;
+    background-color: #333;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9rem;
+}
+
+.head-nav{
+    background-color: #aaa;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 1%;
+}
+
+.head-nav__class{
+    background-color: #bbb;
+    display: inline;
+    display: flex;
+    align-items: center;
+    padding-right: 0.5rem;
+}
+.head-nav__class-item{
+    background-color: #ddd;
+    padding-left:15px;
+    align-items: center;
+}
+
+/*Dots*/
+.head-nav__class-dots{
+    margin: 0 20px;
+    border-radius: 50%;
+}
+
+.head-nav__class-dots > .circle{
+    background-color: aqua;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#puntitos{
+    max-width: 100%;
+    max-height: 100%;
+}
+.head-nav__class-dots a{
+    height: 70%;
+    width: 70%;
+}
+
+/*Perfil*/
+.head-nav__class-perfil{
+    border-radius: 50%;
+}
+.head-nav__class-perfil > .circle{
+    background-color: aqua;
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.head-nav__class-perfil a{
+    height: 80%;
+    width: 80%;
+}
+#foto_perfil{
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+
+
+/*links en general*/
+.head-nav a {
+    text-decoration: none;
+    color: #222;
+}
+
+
+
+
+
+
+/*Barra de navegador, efectos*/
+
+.head-nav__class-item>a:hover{
+    text-decoration: underline;
+}
+.head-nav__class-dots > .circle:hover{
+    background-color: #bbb;
+}
+.head-nav__class-perfil > .circle:hover{
+    background-color: #bbb;
+}
+
+
