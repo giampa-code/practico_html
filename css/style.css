@@ -44,8 +44,8 @@ nav{
 
 .head-nav__class-dots > .circle{
     background-color: aqua;
-    height: 28px;
-    width: 28px;
+    height: 42px;
+    width: 42px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -56,8 +56,8 @@ nav{
     max-height: 100%;
 }
 .head-nav__class-dots a{
-    height: 70%;
-    width: 70%;
+    height: 50%;
+    width: 50%;
 }
 
 /*Perfil*/
